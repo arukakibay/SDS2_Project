@@ -1,0 +1,20 @@
+#  MODEL SPECIFICATION 
+
+model 
+{
+  for (i in 1:N){
+    Y[i] ~ dbern(p[i])
+    p[i] <- ilogit(beta0+beta1*x1[i] + beta2*x2[i] + beta4*x4[i] + beta5*x5[i]+ beta6*x6[i] ) 
+    
+  }
+  
+  # Defining the prior beta parameters
+  beta0 ~ dnorm(0, 1.0E-4)
+  beta1 ~ dnorm(0, 1.0E-4)
+  beta2 ~ dnorm(0, 1.0E-4)
+  beta4 ~ dnorm(0, 1.0E-4)
+  beta5 ~ dnorm(0, 1.0E-4)
+  beta6 ~ dnorm(0, 1.0E-4)
+
+
+}
