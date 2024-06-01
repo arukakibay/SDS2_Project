@@ -18,28 +18,28 @@ Pregnancies: Number of Times Pregnant (Int)
 \\
 Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test.
 \\
-\\70-99 : Normal glucose level
-\\100-125 : Impaired fasting
-\\126> : Diabetes
-\\BloodPressure: Diastolic blood pressure (mm Hg):
+\\ 70-99 : Normal glucose level
+\\ 100-125 : Impaired fasting
+\\ 126> : Diabetes
+\\ BloodPressure: Diastolic blood pressure (mm Hg):
 \\
-\\<84: Normal
-\\84-89: High
-\\90-99: Hypertensive I
-\\100-109: Hypertensive II
-\\110≥: Hypertensive III
-\\SkinThickness: Triceps skin fold thickness (mm)
+\\ <84: Normal
+\\ 84-89: High
+\\ 90-99: Hypertensive I
+\\ 100-109: Hypertensive II
+\\ 110≥: Hypertensive III
+\\ SkinThickness: Triceps skin fold thickness (mm)
 
 \\Insulin: 2-Hour serum insulin (mu U/ml)
 
 \\BMI: Body mass index (weight in kg/(height in m)^2):
 
-\\<18.5 : Underweight
-\\18.5 - 24.9 : Healthy
-\\25 - 29.9 : Overweight
-\\30 - 39.9 : Obese
-\\DiabetesPedigreeFunction: Diabetes pedigree function
+\\ <18.5 : Underweight
+\\ 18.5 - 24.9 : Healthy
+\\ 25 - 29.9 : Overweight
+\\ 30 - 39.9 : Obese
+\\ DiabetesPedigreeFunction: Diabetes pedigree function
 
-\\Age: Patient Age (Years)
+\\ Age: Patient Age (Years)
 \\
 For each patient, the binary target variable Outcome indicates whether or not she is affected by Diabetes.
