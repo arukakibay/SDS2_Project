@@ -3,14 +3,15 @@ Statistics project in R
 
 ## PIMA Indian Diabetes
 Nowadays, with the improvement of the technologies there are an amount of data that allows us to understand if there is any problem or not in the healthy of a person.
-\\
+\\ 
 Here in this project we explain and we try to predict whether a patient should be diagnosed with Diabetic or not. In this project we will apply a Fully Bayesian Logistic Regression model aimed at predicting the onset of diabetes mellitus in Pima Indians given diagnostic measurements.
 Diabetes is a metabolic disorders characterized by a high blood sugar level (hyperglycemia) over a prolonged period of time. It is mainly due to the reduction of insulin production or lack of capability by the cells to properly respond to the insulin produced.
-\\
+\\ 
 Kaggle, is the main platform where I found this interesting dataset where applying our main bayesian inference as the main scope of this project.
-\\
+
+\\\ 
 This dataset is composed by these features: The dataset used is Pima Indians Diabetes Dataset, publicly available on Kaggle : https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database, containing medical information of female patients belonging to Pima Indian heritage of age ≥21.
-\\
+\\ 
 Analyzing these features, we captured some interesting information for each feature within the dataset:
 \\
 Pregnancies: Number of Times Pregnant (Int)
